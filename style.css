@@ -1,0 +1,29 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #d0ada769;
+    text-align: justify;
+}
+
+strong{
+    color:rgb(173, 93, 36);
+}
+
+h1, h2, h3{
+    color:rgb(95, 4, 4);
+}
+
+li{
+    line-height: 25px;
+}
+
+.description{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;               
+} 
+
+#name{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.highlight-size{
+    font-size:large;
+}
