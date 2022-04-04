@@ -43,16 +43,15 @@ p {
     padding: 10px;
     background-color: rgb(173, 93, 36);
     border-radius: 30%;
-}
-
-.position {
-  display: inline-block;
-  vertical-align: top;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .presentation {
     width: 75%;
     margin-left: 40px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #skills-container {
@@ -68,6 +67,6 @@ p {
     font-style: italic;
 }
 
-/* div {
+div {
     border: 1px solid red;
-} */
+}
