@@ -3,45 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfólio Web-Juliana Álvares</title>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family: 'Source Sans Pro', sans-serif;
+                background-color: #d0ada769;
+                text-align: justify;
+            }
+            strong{
+                color:rgb(173, 93, 36);
+            }
+            h1, h2, h3{
+                color:rgb(95, 4, 4);
+            }
+            li{
+                line-height: 25px;
+            }
+            .description{
+                font-family: 'IBM Plex Sans Arabic', sans-serif;               
+            }            
+            #name{
+                font-family: 'IBM Plex Sans Arabic', sans-serif;
+            }
+            .highlight-size{
+                font-size:large;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>Olá, sou <a href="#foto"><em>Juliana Álvares</em></a> (<a href="https://github.com/AlvaresJu" target="_blank">@AlvaresJu</a>)! </h1>
+        <h1>Olá, sou <a href="#photo" id="name"><em>Juliana Álvares</em></a> (<a href="https://github.com/AlvaresJu" target="_blank">@AlvaresJu</a>)! </h1>
         
         <h1>Seja muito bem vinda(o) ao meu Portfólio Web.</h1><br>
 
         <h2>Nesse portfólio você verá:</h2>
-                <ul>
-            <li><a href="#eu">Quem sou eu</a></li>
-            <li><a href="#habilidades">Minhas principais habilidades</a></li>
+        <ul>
+            <li><a href="#me">Quem sou eu</a></li>
+            <li><a href="#skills">Minhas principais habilidades</a></li>
         </ul><br>
 
-        <h2 id="eu"> Quem sou eu </h2>
+        <h2 id="me"> Quem sou eu </h2>
 
-            <img src="Juliana_Alvares.jpg" alt="Foto de Juliana Álvares" width="250px" id="foto"><br>
+            <img src="Juliana_Alvares.jpg" alt="Foto de Juliana Álvares" width="250px" id="photo"><br>
 
-            <p>Meu nome é <strong>Juliana Sampaio Álvares</strong>, tenho 28 anos, sou Brasileira, de Salvador - BA, mas atualmente moro no Rio de Janeiro - RJ.</p>
+            <p class="description">Meu nome é <strong>Juliana Sampaio Álvares</strong>, tenho 28 anos, sou Brasileira, de Salvador - BA, mas atualmente <strong>moro no Rio de Janeiro - RJ</strong>.</p>
 
-            <p> Sou formada e tenho mestrado em <strong>Engenharia Civil</strong>. Atuei por alguns anos nessa área, mas estou em processo de <strong>mudança de carreira</strong>, iniciando o curso de <strong>Desenvolvimento Web</strong> na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.</p>
+            <p class="description"> Sou formada e tenho mestrado em <strong>Engenharia Civil</strong>. Atuei por alguns anos nessa área, mas estou em processo de <strong>mudança de carreira</strong>, iniciando o curso de <strong>Desenvolvimento Web</strong> na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.</p>
             
-            <p>No meu tempo livre curto assistir filmes, séries, ficar em família e sair com amigos, além de amar viajar!</p>
+            <p class="description">No meu tempo livre curto assistir filmes, séries, ficar em família e sair com amigos, além de amar viajar!</p>
 
-            <p>Se quiser se conectar comigo, <strong>me segue no <a href="https://www.linkedin.com/in/juliana-%C3%A1lvares-246872112/" target="_blank">LinkedIn</a></strong>.</p><br>
+            <p class="description">Se quiser se conectar comigo, <strong>me segue no <a href="https://www.linkedin.com/in/juliana-%C3%A1lvares-246872112/" target="_blank">LinkedIn</a></strong>.</p><br>
 
-        <h2 id="habilidades">Minhas principais habilidades</h2>
+        <h2 id="skills">Minhas principais habilidades</h2>
 
         <h3> Habilidades em Soft Skills:</h3>
         <ul>
-            <li>Planejamento e organização</li>
-            <li>Empatia</li>
+            <li><strong class="highlight-size">Planejamento</strong> e organização</li>
             <li>Colaboração</li>
+            <li><strong class="highlight-size">Empatia</strong></li>
             <li>Flexibilidade</li>
             <li>Capacidade anlítica</li>
         </ul>
 
         <h3>Habilidades técnicas:</h3>
         <ul>
-            <li>Noções básicas de Unix, <strong>JavaScript e HTML</strong></li>
+            <li>Noções básicas de <strong class="highlight-size">Unix, JavaScript, HTML e CSS</strong></li>
             <li>Gestão de projetos</li>
             <li>Planejamento e controle da produção</li>
         </ul>            
