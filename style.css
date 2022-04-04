@@ -1,29 +1,73 @@
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #d0ada769;
+    background-color: #e0ada469;
     text-align: justify;
+    margin: 0 20px;
 }
 
-strong{
+strong {
     color:rgb(173, 93, 36);
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     color:rgb(95, 4, 4);
 }
 
-li{
-    line-height: 25px;
+h1 {
+    text-align: center;
 }
 
-.description{
+li {
+    line-height: 25px;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.description {
     font-family: 'IBM Plex Sans Arabic', sans-serif;               
 } 
 
-#name{
+#name {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
-.highlight-size{
+.highlight-size {
     font-size:large;
 }
+
+#photo {
+    padding: 10px;
+    background-color: rgb(173, 93, 36);
+    border-radius: 30%;
+}
+
+.position {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.presentation {
+    width: 75%;
+    margin-left: 40px;
+}
+
+#skills-container {
+    margin-top: 50px;
+}
+
+#sections-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#skills-container li:nth-of-type(odd) {
+    font-style: italic;
+}
+
+/* div {
+    border: 1px solid red;
+} */
