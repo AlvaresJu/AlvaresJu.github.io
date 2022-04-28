@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Todo List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>&#128221;</h1>
+    <h1> Minha Lista de Tarefas</h1>
+  </header>
+
+  <main>
+    <section id="botoes">
+      <button id="mover-cima" class="mover">Mover Tarefa &#128314;</button><br><br>
+      <button id="mover-baixo" class="mover">Mover Tarefa &#128315;</button><br><br>
+      <button id="remover-selecionado" class="apagar">Apagar Tarefa</button><br><br>
+      <button id="remover-finalizados" class="apagar">Apagar Finalizadas</button><br><br>
+      <button id="apaga-tudo" class="apagar">Apagar Tudo</button><br><br>
+      <button id="salvar-tarefas" class="salvar">Salvar Lista</button>
+    </section>
+
+    <section id="minhas-tarefas">
+      <div id="input-container">
+        <label for="texto-tarefa">Nova tarefa:</label>
+        <input type="text" placeholder="Digite sua tarefa" id="texto-tarefa">
+        <button id="criar-tarefa">Adicionar na lista</button>
+      </div>
+      <div id="fundo-tarefas">
+        <p id="funcionamento"><em>Clique duas vezes em um item para marcá-lo como completo</em></p>
+        <ol id="lista-tarefas"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>Desenvolvido por <strong>Juliana Álvares</strong>, 2022.</p>
+    <p>Contato: <em>sobrenome.nome@hotmail.com</em></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

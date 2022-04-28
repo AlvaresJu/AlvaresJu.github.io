@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px 40px;
+  font-family: monospace;
+  background-color: rgba(128 , 128 , 128 , 0.76);
+}
+
+header {
+  padding: 15px;
+  vertical-align: middle;
+  margin-bottom: 30px;
+  border-bottom: 1px groove black;
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+}
+
+main {
+  width: 10px 90%;
+  margin: auto;
+}
+
+#botoes {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 130px;
+  padding-left: 40px;
+  text-align: right;
+}
+
+.mover {
+  background-color: rgb(233 , 231 , 143);
+  border: 2px solid rgb(139 , 126 , 9);
+}
+
+.apagar {
+  background-color: rgb(235 , 177 , 177);
+  border: 2px solid darkred;
+}
+
+.salvar {
+  background-color: rgb(108 , 195 , 250);
+  border: 2px solid rgb(0 , 123 , 139);
+}
+
+#minhas-tarefas {
+  display: inline-block;
+}
+
+#input-container {
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding: auto 10px;
+  color: white;
+  font-weight: 600;
+}
+
+#texto-tarefa {
+  font-family: monospace;
+  padding: 5px;
+  width: 250px;
+  border: 2px solid rgb(97 , 97 , 97);
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 13px;
+  width: 165px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#criar-tarefa {
+  background-color: rgb(138 , 253 , 115);
+  border: 2px solid darkgreen;
+}
+
+#fundo-tarefas {
+  background-image: url('blank-notebook.jpg');
+  background-size: contain;
+  width: 430px;
+  height: 550px;
+}
+
+#funcionamento {
+  padding: 10px auto;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+}
+
+#lista-tarefas {
+  margin: 75px 80px 35px 90px;
+  font-size: 14px;
+}
+
+.tarefa {
+  margin: 4px auto;
+  padding: 3px;
+}
+
+.tarefa:hover {
+  cursor: pointer;
+}
+
+.selecionada {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#footer {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  font-size: 15px;
+}
+
+#footer p {
+  margin: 8px;
+}
