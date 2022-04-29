@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Color Guess</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <h1 id="title">&#127912; Adivinhando a cor...</h1>
+    </header>
+
+    <main>
+      <h2>Clique na cor abaixo que é definida pelo seguinte código RGB:</h2>
+
+      <div id="color-container">
+      <p id="rgb-color"></p>
+        <ul id="ball-list">
+          <li class="ball"></li>
+          <li class="ball"></li>
+          <li class="ball"></li>
+          <li class="ball"></li>
+          <li class="ball"></li>
+          <li class="ball"></li>
+        </ul>
+      </div>
+
+      <div id="bottom-content">
+        <p id="emoji" class="bottom-text">🤔</p>
+        <p id="answer" class="bottom-text">Escolha uma cor</p><br><br>
+        <p class="bottom-text">Placar:</p>
+        <p id="score" class="bottom-text">0</p>
+        <p class="bottom-text">Pontos</p>
+      </div>
+
+      <div id="button">
+        <button id="reset-game">Resetar Cores</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

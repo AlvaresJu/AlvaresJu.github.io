@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px 40px;
+  font-family: Patrick Hand, cursive, Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('Imagem_fundo.png');
+  background-size: cover;
+  color: whitesmoke;
+}
+
+header {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+main {
+  width: 60%;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+#color-container {
+  background-color: rgba(133, 128, 128, 0.315);
+  width: fit-content;
+  padding: 20px 15px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+#rgb-color {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ball {
+  list-style: none;
+  display: inline-block;
+  border: 2px solid whitesmoke;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#bottom-content , #button {
+  margin: 30px 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#bottom-content {
+  width: 290px;
+}
+
+.bottom-text {
+  font-size: 26px;
+  font-weight: 500;
+  display: inline;
+  margin-left: 10px;
+}
+
+#score {
+  font-weight: 600;
+  color: rgb(178, 247, 40);
+}
+
+#reset-game {
+  display: inline-block;
+  padding: 7px 20px;
+  font-family: Patrick Hand, cursive, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  border: 2px solid gray;
+  background-color: rgba(245, 245, 245, 0.486);
+  border-radius: 30px;
+  color: whitesmoke;
+}
+
+#reset-game:hover {
+  cursor: pointer;
+}
