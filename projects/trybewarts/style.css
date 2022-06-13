@@ -37,10 +37,13 @@ hr {
 
 #login-email {
   height: 50%;
-  width: 30%;
+  width: 35%;
   align-self: center;
   border-radius: 5px;
   border: rgb(50, 167, 145);
+  padding: 7px;
+  font-family: fantasy;
+  font-size: 1em;
 }
 
 #login-password {
@@ -49,6 +52,9 @@ hr {
   align-self: center;
   border-radius: 5px;
   border: rgb(50, 167, 145);
+  padding: 7px;
+  font-family: fantasy;
+  font-size: 1em;
 }
 
 #login-button {
@@ -59,6 +65,9 @@ hr {
   border: rgb(50, 167, 145);
   background-color: rgb(42, 42, 163);
   color: antiquewhite;
+  font-family: fantasy;
+  font-size: 1em;
+  cursor: pointer;
 }
 
 main {
@@ -95,18 +104,20 @@ main {
   border-radius: 10px;
   border: 1px solid rgb(230, 229, 229);
   background-color: white;
-  padding: 20px 0;
+  padding: 20px 10px;
   width: 335px;
-  font-size: 16px;
+  font-family: fantasy;
+  font-size: 1.1em;
 }
 
 #input-lastname {
   border-radius: 10px;
   border: 1px solid rgb(230, 229, 229);
   background-color: white;
-  padding: 20px 0;
+  padding: 20px 10px;
   width: 335px;
-  font-size: 16px;
+  font-family: fantasy;
+  font-size: 1.1em;
 }
 
 #email-house {
@@ -114,15 +125,18 @@ main {
   width: 675px;
   justify-content: space-between;
   margin: 10px;
+  font-family: fantasy;
+  font-size: 1.1em;
 }
 
 #input-email {
   border-radius: 10px;
   border: 1px solid rgb(230, 229, 229);
   background-color: white;
-  padding: 20px 0;
+  padding: 20px 10px;
   width: 335px;
-  font-size: 16px;
+  font-family: fantasy;
+  font-size: 1.1em;
 }
 
 #house {
@@ -130,8 +144,9 @@ main {
   border: 1px solid rgb(230, 229, 229);
   background-color: white;
   width: 290px;
-  padding: 20px 0;
-  font-size: 16px;
+  padding: 20px 10px;
+  font-family: fantasy;
+  font-size: 1.1em;
 }
 
 #options-check {
@@ -163,14 +178,17 @@ main {
 
 #option {
   width: 275px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .learn {
-  padding: 5px;
+  padding: 5px 7px;
 }
 
 #label-content {
   width: 100%;
+  padding-bottom: 5px;
 }
 
 #evaluation {
@@ -184,9 +202,18 @@ main {
   width: 300px;
 }
 
+#numbers-rate {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+
 .textarea {
   width: 100%;
   font-size: 22px;
+  padding-left: 10px;
+  padding-bottom: 8px;
 }
 
 #textarea {
@@ -194,23 +221,42 @@ main {
   height: 150px;
   border-radius: 10px;
   border: 1px solid rgb(42, 42, 163);
+  padding: 10px;
+  font-family: fantasy;
+  font-size: 1.3em;
+}
+
+#counter {
+  font-family: fantasy;
+  font-size: 1em;
+  text-align: end;
+  padding-right: 10px;
 }
 
 #agreement-check {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   font-size: 22px;
+}
+
+#label-infos {
+  align-self: center;
 }
 
 #submit-btn {
   height: 50%;
-  margin: 20px;
+  margin: 20px 10px;
   align-self: center;
   padding: 10px 45px;
   border-radius: 5px;
   border: rgb(50, 167, 145);
   background-color: rgb(42, 42, 163);
   color: antiquewhite;
+  font-family: fantasy;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: 40px;
 }
 
 #footer {
@@ -218,4 +264,5 @@ main {
   color: antiquewhite;
   padding: 3px;
   text-align: center;
+  padding: 8px 0;
 }
