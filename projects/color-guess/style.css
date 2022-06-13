@@ -88,3 +88,15 @@ h2 {
 #reset-game:hover {
   cursor: pointer;
 }
+
+#footer {
+  margin-top: 80px;
+  border-top: 1px solid white;
+  font-size: 20px;
+  color: white;
+  width: 45%;
+}
+
+#footer p {
+  margin: 8px;
+}
